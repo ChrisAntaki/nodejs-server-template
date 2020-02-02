@@ -9,7 +9,9 @@ notifications:
 
 cache: yarn
 
-script: npm run travis
+script:
+  - npm run coverage
+  - npm run coveralls
 
 jobs:
   fast_finish: true

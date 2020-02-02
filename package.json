@@ -16,7 +16,7 @@
   "scripts": {
     "start": "node .",
     "coverage": "nyc --reporter=html --reporter=text mocha",
-    "travis": "nyc report --reporter=text-lcov | coveralls",
+    "coveralls": "nyc report --reporter=text-lcov | coveralls",
     "test": "mocha --watch"
   }
 }
