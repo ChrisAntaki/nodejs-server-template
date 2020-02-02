@@ -4,7 +4,7 @@ Great start for a Nodejs server
 ## Features
 - [x] Nodejs server with Express
 - [x] Unit tests with coverage
-- [ ] Travis + Coveralls integration
+- [x] Travis + Coveralls integration
 - [ ] Dockerfile that works on GCP CloudRun
 
 ## Badges
