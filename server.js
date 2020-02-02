@@ -1,4 +1,5 @@
 const express = require('express');
+const wasm = require('./wasm');
 
 // Constants
 const PORT = process.env.PORT || 8080;
@@ -8,6 +9,10 @@ const HOST = '0.0.0.0';
 const app = express();
 app.get('/', (req, res) => {
   res.send('Hello World');
+});
+app.get('/add', (req, res) => {
+  const { a, b } = req.query;
+  res.send('' + wasm.add(a, b));
 });
 
 const server = app.listen(PORT, HOST);
