@@ -12,5 +12,4 @@ RUN yarn
 COPY . .
 
 # Start server
-EXPOSE 8080
 CMD [ "node", "server.js" ]
