@@ -3,6 +3,7 @@
 
 ## What's in the box?
 - [x] Nodejs server with Express
+- [x] Wasm with AssemblyScript
 - [x] Unit tests with coverage
 - [x] Travis + Coveralls integration
 - [x] Dockerfile that works on GCP CloudRun

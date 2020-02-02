@@ -1,4 +1,6 @@
-node_modules/
-yarn-error.log
-coverage/
-.nyc_output/
+/.nyc_output/
+/build/
+/coverage/
+/node_modules/
+/tests/
+/yarn-error.log

@@ -2,6 +2,11 @@
 # yarn lockfile v1
 
 
+"@assemblyscript/loader@^0.9.1":
+  version "0.9.1"
+  resolved "https://registry.yarnpkg.com/@assemblyscript/loader/-/loader-0.9.1.tgz#6e56e997a64b88d97d83d98cd00949f1597f62ce"
+  integrity sha512-AVGVoLcHSqkmYmrYRxaS2QvbeT0oyDpfZ1wKJzdIwS3xOxPVDWvGJyxExgnj0jN8h4ylJQKTA6HgDbRW0fXfNA==
+
 "@babel/code-frame@^7.8.3":
   version "7.8.3"
   resolved "https://registry.yarnpkg.com/@babel/code-frame/-/code-frame-7.8.3.tgz#33e25903d7481181534e12ec0a25f16b6fcf419e"
@@ -262,6 +267,14 @@ asn1@~0.2.3:
   dependencies:
     safer-buffer "~2.1.0"
 
+assemblyscript@^0.9.1:
+  version "0.9.1"
+  resolved "https://registry.yarnpkg.com/assemblyscript/-/assemblyscript-0.9.1.tgz#678ec0816af2c2bf27a205df47c3e6705b4668d7"
+  integrity sha512-aM72Ey+CQloWmqTDLnlXD2Tb3sVoLU5i3tShaJWHlnLFWiyWWLZBQTue6jwyzqF8t9JNiEyC9eqkuagNtgSDjw==
+  dependencies:
+    binaryen "90.0.0-nightly.20200128"
+    long "^4.0.0"
+
 assert-plus@1.0.0, assert-plus@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/assert-plus/-/assert-plus-1.0.0.tgz#f12e0f3c5d77b0b1cdd9146942e4e96c1e4dd525"
@@ -303,6 +316,11 @@ binary-extensions@^2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/binary-extensions/-/binary-extensions-2.0.0.tgz#23c0df14f6a88077f5f986c0d167ec03c3d5537c"
   integrity sha512-Phlt0plgpIIBOGTT/ehfFnbNlfsDEiqmzE2KRXoX1bLIlir4X/MR+zSyBEkL05ffWgnRSf/DXv+WrUAVr93/ow==
+
+binaryen@90.0.0-nightly.20200128:
+  version "90.0.0-nightly.20200128"
+  resolved "https://registry.yarnpkg.com/binaryen/-/binaryen-90.0.0-nightly.20200128.tgz#fd49c75f74a142ae77e9268e3c18cad8fea1a4be"
+  integrity sha512-f64O/OpAtS39zcocpqjMtskUgAkUAv2fBlY9/hu2Ly4m0Xd/waaTrPRLSaAsEDzFcn+MebOdCN8ASjej1jc0uA==
 
 body-parser@1.19.0:
   version "1.19.0"
@@ -1340,6 +1358,11 @@ log-symbols@2.2.0:
   integrity sha512-VeIAFslyIerEJLXHziedo2basKbMKtTw3vfn5IzG0XTjhAVEJyNHnL2p7vc+wBDSdQuUpNw3M2u6xb9QsAY5Eg==
   dependencies:
     chalk "^2.0.1"
+
+long@^4.0.0:
+  version "4.0.0"
+  resolved "https://registry.yarnpkg.com/long/-/long-4.0.0.tgz#9a7b71cfb7d361a194ea555241c92f7468d5bf28"
+  integrity sha512-XsP+KhQif4bjX1kbuSiySJFNAehNxgLb6hPRGJ9QsUr8ajHkuXGdrHmFUTUUXhDwVX2R5bY4JNZEwbUiMhV+MA==
 
 make-dir@^3.0.0:
   version "3.0.0"

@@ -6,17 +6,23 @@
   "author": "Chris Antaki <ChrisAntaki@gmail.com>",
   "license": "MIT",
   "dependencies": {
+    "assemblyscript": "^0.9.1",
     "chai": "^4.2.0",
     "chai-http": "^4.3.0",
     "coveralls": "^3.0.9",
     "express": "^4.17.1",
     "mocha": "^7.0.1",
-    "nyc": "^15.0.0"
+    "nyc": "^15.0.0",
+    "@assemblyscript/loader": "^0.9.1"
   },
   "scripts": {
-    "start": "node .",
+    "build": "asc assembly/index.ts -d build/index.d.ts -b build/index.wasm -O3 --noAssert",
     "coverage": "nyc --reporter=html --reporter=text mocha",
     "coveralls": "nyc report --reporter=text-lcov | coveralls",
+    "start": "node .",
     "test": "mocha --watch"
+  },
+  "devDependencies": {
+    "assemblyscript": "^0.9.1"
   }
 }

@@ -9,9 +9,11 @@ notifications:
 
 cache: yarn
 
+before_script: yarn build
+
 script:
-  - npm run coverage
-  - npm run coveralls
+  - yarn coverage
+  - yarn coveralls
 
 jobs:
   fast_finish: true
