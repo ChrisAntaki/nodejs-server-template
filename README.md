@@ -5,4 +5,4 @@
 - [x] Nodejs server with Express
 - [x] Unit tests with coverage
 - [x] Travis + Coveralls integration
-- [ ] Dockerfile that works on GCP CloudRun
+- [x] Dockerfile that works on GCP CloudRun
