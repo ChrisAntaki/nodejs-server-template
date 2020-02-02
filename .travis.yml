@@ -1,0 +1,18 @@
+dist: trusty
+
+language: node_js
+
+notifications:
+  email:
+    on_success: never
+    on_failure: change
+
+cache: yarn
+
+script: npm run travis
+
+jobs:
+  fast_finish: true
+
+services:
+  - docker
