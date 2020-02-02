@@ -16,7 +16,7 @@
     "@assemblyscript/loader": "^0.9.1"
   },
   "scripts": {
-    "build": "asc assembly/index.ts -b build/index.wasm -O3 --noAssert",
+    "build": "asc assembly/index.ts -d build/index.d.ts -b build/index.wasm -O3 --noAssert",
     "coverage": "nyc --reporter=html --reporter=text mocha",
     "coveralls": "nyc report --reporter=text-lcov | coveralls",
     "start": "node .",
