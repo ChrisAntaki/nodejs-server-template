@@ -1,4 +1,11 @@
 {
+  "scripts": {
+    "build": "asc assembly/index.ts -d build/index.d.ts -b build/index.wasm -O3 --noAssert",
+    "coverage": "nyc --reporter=html --reporter=text mocha",
+    "coveralls": "nyc report --reporter=text-lcov | coveralls",
+    "start": "nodemon .",
+    "test": "mocha --watch"
+  },
   "name": "nodejs-server-template",
   "version": "1.0.0",
   "main": "server.js",
@@ -15,13 +22,6 @@
     "mocha": "^7.0.1",
     "nodemon": "^2.0.2",
     "nyc": "^15.0.0"
-  },
-  "scripts": {
-    "build": "asc assembly/index.ts -d build/index.d.ts -b build/index.wasm -O3 --noAssert",
-    "coverage": "nyc --reporter=html --reporter=text mocha",
-    "coveralls": "nyc report --reporter=text-lcov | coveralls",
-    "start": "nodemon .",
-    "test": "mocha --watch"
   },
   "devDependencies": {
     "assemblyscript": "^0.9.1"
