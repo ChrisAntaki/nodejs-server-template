@@ -5,7 +5,7 @@
 - [x] Nodejs server with Express
 - [x] Wasm with AssemblyScript
 - [x] Unit tests with coverage
-- [x] Travis + Coveralls integration
+- [x] GitHub Actions + Codecov integration
 - [x] Dockerfile that works on GCP CloudRun
 
 ## Installation
