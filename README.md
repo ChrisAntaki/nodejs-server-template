@@ -1,5 +1,5 @@
 ![Build Status](https://github.com/ChrisAntaki/nodejs-server-template/workflows/CI/badge.svg)
-![Codecov](https://codecov.io/gh/ChrisAntaki/nodejs-server-template/branch/master/graph/badge.svg)
+![Codecov](https://codecov.io/gh/ChrisAntaki/nodejs-server-template/branch/main/graph/badge.svg)
 
 ## Features
 - [x] Nodejs server with Express
