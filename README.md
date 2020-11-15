@@ -1,5 +1,5 @@
-[![Build Status](https://travis-ci.com/ChrisAntaki/nodejs-server-template.svg?branch=master)](https://travis-ci.com/ChrisAntaki/nodejs-server-template)
-[![Coverage Status](https://coveralls.io/repos/github/ChrisAntaki/nodejs-server-template/badge.svg?branch=master)](https://coveralls.io/github/ChrisAntaki/nodejs-server-template?branch=master)
+[![Build Status](https://github.com/ChrisAntaki/nodejs-server-template/workflows/CI/badge.svg)
+[![Codecov](https://codecov.io/gh/ChrisAntaki/nodejs-server-template/branch/master/graph/badge.svg)](https://codecov.io/gh/ChrisAntaki/nodejs-server-template)
 
 ## Features
 - [x] Nodejs server with Express
