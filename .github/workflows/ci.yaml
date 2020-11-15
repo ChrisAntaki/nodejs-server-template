@@ -18,6 +18,8 @@ jobs:
     - name: Coverage
       run: yarn coverage
 
-    - name: Coveralls
-      uses: coverallsapp/github-action@v1.1.2
+    - name: Codecov
+      uses: codecov/codecov-action@v1
+      with:
+        file: ./coverage/lcov.info
 
