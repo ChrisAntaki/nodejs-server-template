@@ -1,5 +1,5 @@
 const express = require('express');
-const wasm = require('./wasm');
+const wasm = require('./wasm').exports;
 
 // Constants
 const PORT = process.env.PORT || 8080;
