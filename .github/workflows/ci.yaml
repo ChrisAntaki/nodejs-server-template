@@ -13,7 +13,7 @@ jobs:
       run: yarn
 
     - name: Build WASM
-      run: yarn
+      run: yarn build
 
     - name: Coverage
       run: yarn coverage
