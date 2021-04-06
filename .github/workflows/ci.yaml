@@ -7,19 +7,15 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - uses: actions/checkout@v2
+      - uses: actions/checkout@v2
 
-    - name: Install dependencies
-      run: yarn
+      - name: Install dependencies
+        run: yarn
 
-    - name: Build WASM
-      run: yarn build
+      - name: Coverage
+        run: yarn coverage
 
-    - name: Coverage
-      run: yarn coverage
-
-    - name: Codecov
-      uses: codecov/codecov-action@v1
-      with:
-        file: ./coverage/lcov.info
-
+      - name: Codecov
+        uses: codecov/codecov-action@v1
+        with:
+          file: ./coverage/lcov.info
