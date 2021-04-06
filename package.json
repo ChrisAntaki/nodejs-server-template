@@ -1,6 +1,5 @@
 {
   "scripts": {
-    "build": "asc assembly/index.ts -d build/index.d.ts -b build/index.wasm -O3 --noAssert",
     "coverage": "nyc --reporter=lcov --reporter=text mocha",
     "start": "nodemon .",
     "test": "mocha --watch"
@@ -20,8 +19,5 @@
     "mocha": "^8.2.1",
     "nodemon": "^2.0.6",
     "nyc": "^15.0.0"
-  },
-  "devDependencies": {
-    "assemblyscript": "^0.17.2"
   }
 }
